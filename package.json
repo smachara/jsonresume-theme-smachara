@@ -1,0 +1,14 @@
+{
+  "name": "jsonresume-theme-smachara",
+  "version": "0.1.2",
+  "description": "My theme for JSON Resume",
+  "author": "Samer MACHARA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smachara/jsonresume-theme-smachara"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  }
+}
