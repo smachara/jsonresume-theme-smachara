@@ -1,52 +1,76 @@
 {{#if resume.work.length}}
-<section id="work">
-	<h2>Work</h2>
-	{{#each resume.work}}
-	<div class="item">
-		{{#if company}}
-		<h3 class="name">
-			{{company}}
-		</h3>
-		{{/if}}
-		<div class="date">
-			{{#if startDate}}
-			<span class="startDate">
-				{{startDate}}
-			</span>
-			{{/if}}
-			{{#if endDate}}
-			<span class="endDate">
-				- {{endDate}}
-			</span>
-			{{else}}
-			<span class="endDate">
-				- Present
-			</span>
-			{{/if}}
-		</div>
-		{{#if position}}
-		<div class="position">
-			{{position}}
-		</div>
-		{{/if}}
-		{{#if website}}
-		<div class="website">
-			<a href="{{website}}">{{website}}</a>
-		</div>
-		{{/if}}
-		{{#if summary}}
-		<div class="summary">
-			<p>{{summary}}</p>
-		</div>
-		{{/if}}
-		{{#if highlights.length}}
-		<ul class="highlights">
-			{{#each highlights}}
-			<li>{{.}}</li>
+	<section class="experience section" id="experience">
+		<h2 class="section-title">Experience</h2>
+		<div class="experience__container bd-grid">
+			{{#each resume.work}}
+				<div class="experience__content">
+					<div class="experience__time">
+						<spam class="experience__rounder"></spam>
+						{{#if @last}} {{else}} 
+							<spam class="experience__line"></spam>
+						{{/if}}
+					</div>
+					<div class="experience__data bd-grid">
+						<h3 class="experience__title">
+							{{#if position}}
+								{{position}}
+							{{/if}}
+						</h3>
+						<span class="experience__company">
+							{{#if startDate}}
+								{{startDateMonth}}{{startDateYear}}
+							{{/if}}
+							{{#if endDate}}
+								- {{endDateMonth}}{{endDateYear}}
+							{{else}}
+								- Present
+							{{/if}}
+							|
+							{{#if name}}
+								{{name}}
+							{{/if}} 
+							|
+							{{#if location}}
+								{{location}}
+							{{/if}} 
+						</span>
+						{{#if description}}
+							<p>{{{description}}}</p>
+						{{/if}}
+						{{#if url}}
+							<a href="{{url}}">{{url}}</a>
+						{{/if}}
+						<h3 class="experience__title">
+							<u>
+								Mission(s) et réalisations :
+							</u>
+						</h3>
+						<div class="experience__description">
+							{{#if highlights.length}}
+							<ul class="highlights ">
+								{{#each highlights}}
+								<li>{{{.}}}</li>
+								{{/each}}
+							</ul>
+							{{/if}}
+						</div>
+					</div>
+				</div>
 			{{/each}}
-		</ul>
-		{{/if}}
-	</div>
-	{{/each}}
-</section>
+		</div>
+	</section>
 {{/if}}
+{{!-- 
+{{#each resume.work}}
+        {{name}} <br>
+        {{location}}<br>
+        {{description}}<br>
+        {{position}}<br>
+        {{url}}<br>
+        {{startDate}}<br>
+        {{endDate}}<br>
+        {{summary}}<br>
+		{{#each highlights}}
+        	{{highlights}}<br>
+		{{/each}}
+{{/each}} --}}

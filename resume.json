@@ -8,7 +8,7 @@
     "phone": "(+33) 6 48 58 69 31",
     "url": "https://",
     "summary" : "Je suis ingénieur en informatique depuis 2000. Diplômé de l'école d'ingénieurs Mines Telecom Sudparis en informatique et communications réseaux en 2011 et docteur en informatique de l'Université Paris-Saclay en 2015. <br> En quelques mots, je suis rigoureux, méthodique, intègre et loyal, de nature calme et chaleureuse. <br>     J'ai travaillé en tant que chef de projet, en utilisant à la fois des méthodologies traditionnelles et agiles en particulier le framework SCRUM. Avec une expérience cumulée de plus de 7 ans en tant que chef de projet.  Mes expériences m’ont permis d’acquérir de solides connaissances en pilotage des projets, assure la qualité, le suivi et communication des avancements de projet.",
-    "location": {
+        "location": {
       "address": "Impasse Dumont d'Urville",
       "postalCode": "91000",
       "city": "Evry Courcourrones",
@@ -45,7 +45,7 @@
         "summary": "Planification et gestion de projet en mode Agile",
         "highlights": 
         [
-          "<b>Plug and Plate</b>, spécialiste du développement web pour le secteur de la restauration,  offre des solutions pour la gestion des commandes, livraisons, click&collect, et autres.<br> <u>Mission(s) et réalisations</u>  : <ul> <li>Cadrage et analyse des besoins métiers, rédaction des Users Stories</li><li>Pilotage et priorisation du Backlog</li><li>Accompagnement des équipes en charge des développements et priorisation des travaux</li><li>Organisation des travaux de recette et de validation des livraisons</li><li>Participation aux cérémonies Agiles</li></ul><br><a href=\"https://plugandplate.com\">plugandplate.com</a> " 
+          "<b>Plug and Plate</b>, spécialiste du développement web pour le secteur de la restauration,  offre des solutions pour la gestion des commandes, livraisons, click&collect, et autres.<br> <ul  style=\"list-style-type: circle;\" > <li>Cadrage et analyse des besoins métiers, rédaction des Users Stories</li><li>Pilotage et priorisation du Backlog</li><li>Accompagnement des équipes en charge des développements et priorisation des travaux</li><li>Organisation des travaux de recette et de validation des livraisons</li><li>Participation aux cérémonies Agiles</li></ul><br><a href=\"https://plugandplate.com\">plugandplate.com</a> " 
         ] 
     },
     {
@@ -58,12 +58,12 @@
         "endDate": "2020-01-01",
         "summary": "Scrum Master - Administration Jira - Gestion de butget et resources",
         "highlights": [
-            "<u>Mission(s) et réalisations</u>  : <ul> <li>Implémentation et formation de l'équipe interne dans la  méthodologie Scrum.</li><li>Gestion du projet d’industrialisation de la solution logicielle existante, basée sur une nouvelle architecture logicielle de micro-services.</li><li>Choisir les prestataires sous-traitants pour booster le developement de la solution. Superviser les relations avec les sous-traitants, et choisir la répartition des tâches entre ressources internes et ressources externes.</li> <li> Animer les réunions de pilotage de projets basé sur le méthode Scrum. - Définir le planning des tâches et leur priorité. - Etablir les tableaux de bord relatifs au déroulement des projets et à l’activité. - Suivre les plannings de déroulement des projets. - Test des applications développées pour assurer la qualité du produit.</li></ul>",
+            "<ul style=\"list-style-type: circle;\"> <li>Implémentation et formation de l'équipe interne dans la  méthodologie Scrum.</li><li>Gestion du projet d’industrialisation de la solution logicielle existante, basée sur une nouvelle architecture logicielle de micro-services.</li><li>Choisir les prestataires sous-traitants pour booster le developement de la solution. Superviser les relations avec les sous-traitants, et choisir la répartition des tâches entre ressources internes et ressources externes.</li> <li> Animer les réunions de pilotage de projets basé sur le méthode Scrum. - Définir le planning des tâches et leur priorité. - Etablir les tableaux de bord relatifs au déroulement des projets et à l’activité. - Suivre les plannings de déroulement des projets. - Test des applications développées pour assurer la qualité du produit.</li></ul>",
             "Administration Jira, Confluence "      ]
       },
       {
         "name": "École d’ingénieurs Institut Mines-Télécom Sud-Paris et CNRS",
-        "location": "",
+        "location": "Evry - France",
         "description": "Grand école d'ingénieurs publique reconnue au plus haut niveau de la science et du numérique avec le Centre National de la Recherche Scientifique.",
         "position": "Ingénieur Plateforme Cloud",
         "url": "",
@@ -72,12 +72,12 @@
         "summary": "Gestion de project - Tableau Kanban - Diagramme de Gant",
         "highlights":
         [
-            "<u>Mission(s) et réalisations</u>  : <ul> <li> Consolider la gestion et l’administration de la plateforme Cloud du laboratoire SAMOVAR-CNRS et de l’institut Mines-Telecom.  </li><li> Coordination du projet de déménagement de la plateforme de cloud computing (Data Center) de l'ancien bâtiment vers le nouveau centre ETOILE. </li><li>Gestion du project de centralization documentaire de la plateforme cloud.</li></ul>"
+            "<ul style=\"list-style-type: circle;\"> <li> Consolider la gestion et l’administration de la plateforme Cloud du laboratoire SAMOVAR-CNRS et de l’institut Mines-Telecom.  </li><li> Coordination du projet de déménagement de la plateforme de cloud computing (Data Center) de l'ancien bâtiment vers le nouveau centre ETOILE. </li><li>Gestion du project de centralization documentaire de la plateforme cloud.</li></ul>"
         ]
       },
       {
         "name": "École d’ingénieurs Institut Mines-Télécom Sud-Paris",
-        "location": "",
+        "location": "Evry - France",
         "description": "L'institut Mines-Télécom Sud-Paris est une école d'ingénieurs publique reconnue au plus haut niveau de la science et du numérique.",
         "position": "Ingénieur recherche et développement",
         "url": "",
@@ -86,13 +86,13 @@
         "summary": "Gestion de project - cycle en V",
         "highlights":
         [
-          "<u>Mission(s) et réalisations</u>  : <ul><li>Conception des modèles pour la gestion de la qualité de l'information et respect de la vie privée dans l'Internet des objets.</li><li>Gestion et suivi du projet de recherche de façon autonome.</li><li>Définition des modalités d’expérimentation.</li><li>Organisation de réunions d'état d'avancement de projets.</li><li>Rédaction de notes de synthèse, rapport scientifique pour des conférences et rapports de thèse.</li></ul>"
+          "<ul style=\"list-style-type: circle;\"><li>Conception des modèles pour la gestion de la qualité de l'information et respect de la vie privée dans l'Internet des objets.</li><li>Gestion et suivi du projet de recherche de façon autonome.</li><li>Définition des modalités d’expérimentation.</li><li>Organisation de réunions d'état d'avancement de projets.</li><li>Rédaction de notes de synthèse, rapport scientifique pour des conférences et rapports de thèse.</li></ul>"
         ]
       },
       {
         "name": "Tagua Center S.A.",
-        "location": "",
-        "description": "Centres de bien-être & beauté avec 3 établissements, siyue a Caracas - Venezuzla",
+        "location": "Caracas - Venezuela",
+        "description": "Centres de bien-être & beauté avec 3 établissements",
         "position": "Chef de projet SI",
         "url": "",
         "startDate": "2004-11-01",
@@ -100,12 +100,12 @@
         "summary": "Gestion de projet Traditionel - Waterfall - Gestion de butget et resources ",
         "highlights":
         [
-            "<u>Mission(s) et réalisations</u>  : <ul><li>Coordination d’une équipe de travail de cinq personnes et des différents prestataires externes dans le cadre du développement, du maintien et du support du système administratif et du système des réservations de rendez-vous.</li> <li> Analyse des besoins. - Rédaction des cahiers des charges. - Etablissement du planning, définition des ressources, découpage du projet et spécification du budget.</li><li> Suivi d’avancement des prestataires externes.<li> Definition des tests techniques, fonctionnelles et métier.</li><li> Accompagnement des utilisateurs lors de la mise en service du système.<li> Documentation du projet.</li></ul>"
+            "<ul style=\"list-style-type: circle;\"><li>Coordination d’une équipe de travail de cinq personnes et des différents prestataires externes dans le cadre du développement, du maintien et du support du système administratif et du système des réservations de rendez-vous.</li> <li> Analyse des besoins. - Rédaction des cahiers des charges. - Etablissement du planning, définition des ressources, découpage du projet et spécification du budget.</li><li> Suivi d’avancement des prestataires externes.<li> Definition des tests techniques, fonctionnelles et métier.</li><li> Accompagnement des utilisateurs lors de la mise en service du système.<li> Documentation du projet.</li></ul>"
         ]
       },
       {
-        "name": "Zurich Seguros Venezuela",
-        "location": "",
+        "name": "Zurich Seguros",
+        "location": "Caracas - Venezuela",
         "description": "Zurich est l'un des principaux groupes d'assurance internationaux du monde, Il propose une large gamme de solutions d'assurance vie et non-vie pour les particuliers, les professionnels, les PME et les grandes entreprises. ",
         "position": "Analyste Concepteur Solutions Informatique",
         "url": "",
@@ -114,7 +114,7 @@
         "summary": "Gestion de projet Traditionel, Waterfall",
         "highlights":
         [
-            "<u>Mission(s) et réalisations</u>  : <ul><li>Organisation et planification de la mise en oeuvre du projet banque-assurance</li><li>Élaboration des spécifications techniques générales du projet sur la base du cahier des charges.</li><li>Mise en place des structures du projet et d’outils de pilotage.</li><li>Organisation et animation des comités de pilotage auprès des décideurs.</li><li>Transfert régulier à la maîtrise d’ouvrage des tableaux de bord sur l’état d’avancement du projet.</li><li>Supervision et coordination du travail de l’ensemble des acteurs internes et externes.</li><li>Validation des livrables.</li></ul>"
+            "<ul style=\"list-style-type: circle;\"><li>Organisation et planification de la mise en oeuvre du projet banque-assurance</li><li>Élaboration des spécifications techniques générales du projet sur la base du cahier des charges.</li><li>Mise en place des structures du projet et d’outils de pilotage.</li><li>Organisation et animation des comités de pilotage auprès des décideurs.</li><li>Transfert régulier à la maîtrise d’ouvrage des tableaux de bord sur l’état d’avancement du projet.</li><li>Supervision et coordination du travail de l’ensemble des acteurs internes et externes.</li><li>Validation des livrables.</li></ul>"
         ]
       }
   ],
@@ -163,8 +163,8 @@
           "url": "",
           "area": "Sciences Informatiques",
           "studyType": "Ingénieur en Sciences Informatiques",
-          "startDate": "2009-09-01",
-          "endDate": "2011-09-01",
+          "startDate": "1995-09-01",
+          "endDate": "2000-09-01",
           "score": "",
           "courses": [
             "",

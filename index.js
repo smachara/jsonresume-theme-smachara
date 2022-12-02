@@ -10,6 +10,105 @@ function render(resume) {
 	var filenames = fs.readdirSync(partialsDir);
 
 
+    var d = new Date();
+    var curyear = d.getYear();
+    
+    function getMonth(startDateStr) {
+        switch (startDateStr.substr(5,2)) {
+        case '01':
+            return "Jan ";
+        case '02':
+            return "Feb ";
+        case '03':
+            return "Mar ";
+        case '04':
+            return "Apr ";
+        case '05':
+            return "May ";
+        case '06':
+            return "Jun ";
+        case '07':
+            return "Jul ";
+        case '08':
+            return "Aug ";
+        case '09':
+            return "Sep ";
+        case '10':
+            return "Oct ";
+        case '11':
+            return "Nov ";
+        case '12':
+            return "Dec ";
+        }
+    }
+
+    if (resume.work && resume.work.length) {
+        resume.workBool = true;
+        _.each(resume.work, function(w){
+            if (w.startDate) {
+                w.startDateYear = (w.startDate || "").substr(0,4);
+                w.startDateMonth = getMonth(w.startDate || "");
+
+            }
+            if(w.endDate) {
+                w.endDateYear = (w.endDate || "").substr(0,4);
+                w.endDateMonth = getMonth(w.endDate || "");
+            } else {
+                w.endDateYear = 'Present'
+            }
+            if (w.highlights) {
+                if (w.highlights[0]) {
+                    if (w.highlights[0] != "") {
+                        w.boolHighlights = true;
+                    }
+                }
+            }
+        });
+    }
+
+    if (resume.education && resume.education.length) {
+        resume.educationBool = true;
+        _.each(resume.education, function(w){
+            if (w.startDate) {
+                w.startDateYear = (w.startDate || "").substr(0,4);
+                w.startDateMonth = getMonth(w.startDate || "");
+
+            }
+            if(w.endDate) {
+                w.endDateYear = (w.endDate || "").substr(0,4);
+                w.endDateMonth = getMonth(w.endDate || "");
+            } else {
+                w.endDateYear = 'Present'
+            }
+        });
+    }
+
+    if (resume.volunteer && resume.volunteer.length) {
+        resume.volunteerBool = true;
+        _.each(resume.volunteer, function(w){
+            if (w.startDate) {
+                w.startDateYear = (w.startDate || "").substr(0,4);
+                w.startDateMonth = getMonth(w.startDate || "");
+
+            }
+            if(w.endDate) {
+                w.endDateYear = (w.endDate || "").substr(0,4);
+                w.endDateMonth = getMonth(w.endDate || "");
+            } else {
+                w.endDateYear = 'Present'
+            }
+            if (w.highlights) {
+                if (w.highlights[0]) {
+                    if (w.highlights[0] != "") {
+                        w.boolHighlights = true;
+                    }
+                }
+            }
+        });
+    }
+
+
+    
 	_.each(resume.basics.profiles, function(p){
         switch(p.network.toLowerCase()) {
             // special cases

@@ -15,11 +15,13 @@
 				<h3 class="education__title">{{studyType}}</h3>
 				<spam class="education__studies">{{institution}}</spam>
 				<spam class="education__year">
-					{{startDate}} -
+					{{#if startDate}}
+						{{startDateMonth}}{{startDateYear}}
+					{{/if}}
 					{{#if endDate}}
-						{{endDate}}
+						- {{endDateMonth}}{{endDateYear}}
 					{{else}}
-						Present
+						- Present
 					{{/if}}
 				</spam>
 				{{#if url}}
