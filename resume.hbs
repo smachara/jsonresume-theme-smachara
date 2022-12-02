@@ -63,6 +63,116 @@
 			</nav>
 
         </header>
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+					{{#resume.basics}}
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+							<div class="home__data bd-grid">
+								<img src="{{image}}" alt="" class="home__img">
+								<h1 class="home__title"><b>{{name}}</b></h1>
+								<h3 class="home__profession">{{label}}</h3>
+                        		<!-- Button to generate and download the pdf. Available for desktop. -->
+								<div>
+									<a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+								</div>
+								<div class="home__address bd-grid">
+									<spam class="home__information">
+										<i class='bx bx-map home__icon' ></i> 
+											{{#location}}
+												{{#if address}}
+													{{address}}
+												{{/if}}
+												{{#if postalCode}}
+													{{postalCode}}
+												{{/if}}
+												{{#if city}}
+													{{city}}
+												{{/if}}
+												{{#if region}}
+													{{region}}
+												{{/if}}
+												{{#if countryCode}}
+													{{countryCode}}
+												{{/if}}
+											{{/location}}
+									</spam>
+									<spam class="home__information">
+										<i class='bx bx-envelope home__icon' ></i> 
+										{{#if email}}
+											{{email}}
+										{{/if}}
+									</spam>
+									<spam class="home__information">
+										<i class='bx bx-phone home__icon' ></i>
+										{{#if phone}}
+											{{phone}}
+										{{/if}}
+ 
+									</spam>
+
+								</div>
+							</div>
+						</div>
+                        <!-- Theme change button -->
+
+                    </section>          
+                    {{/resume.basics}}
+
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+         				<!-- ABOUT ME -->
+						{{#basics.summary}}
+            				{{{basics.summary}}}
+				        {{/basics.summary}}                    
+					</section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        {{> education }}
+                    </section>
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        {{> skills }}
+                    </section>
+
+                </div>
+	            <div class="resume__right">
+					<!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        {{> work }}
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        {{> references }}
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        {{> languages }}
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        {{> interests }}
+                    </section>
+	            </div>        
+            </div>        
+        </main>
         <!--========== SCROLL TOP ==========-->
         
 
