@@ -299,22 +299,19 @@
     {
       "name": "Natation",
       "keywords": [
-        "",
-        ""
+        "<i class='bx bx-swim interests__icon' ></i>"
       ]
     },
     {
         "name": "Bricolage",
         "keywords": [
-          "",
-          ""
+          "<i class='bx bx-paint-roll interests__icon' ></i>"
         ]
     },
     {
         "name": "Impresion 3D",
         "keywords": [
-          "",
-          ""
+          "<i class='bx bxs-cube-alt interests__icon' ></i>"
         ]
     }
   ],

@@ -1,21 +1,22 @@
-{{#if resume.interests.length}}
-<section id="interests">
-	<h2>Interests</h2>
-	{{#each resume.interests}}
-	<div class="item">
-		{{#if name}}
-		<div class="name">
-			{{name}}
-		</div>
-		{{/if}}
-		{{#if keywords.length}}
-		<ul class="keywords">
-			{{#each keywords}}
-			<li>{{.}}</li>
-			{{/each}}
-		</ul>
-		{{/if}}
-	</div>
-	{{/each}}
+<section class="interests section">
+	{{#if resume.interests.length}}
+		<h2 class="section-title">Interests</h2>
+			<div class="interests__container bd-grid">
+				{{#each resume.interests}}
+					<div class="interests__content">
+						{{#if keywords.length}}
+							{{#each keywords}}
+								{{{.}}}
+							{{/each}}
+						{{/if}}
+						{{#if name}}
+							<spam class="interests__name">
+								{{name}}
+							</spam>
+						{{/if}}
+					</div>
+				{{/each}}
+			</div>
+	{{/if}}
 </section>
-{{/if}}
+
