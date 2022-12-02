@@ -3,18 +3,11 @@
 	<div class="skills__content bd-grid">
 		{{#if resume.skills.length}}
 			{{#each resume.skills}}
-				{{!-- <ul class="skills__data"></ul>
-					
-					<li class="skills__name">
-						{{name}}
-						{{#if level}}
 
-						{{/if}}
-					{{/if}} --}}
 						<ul class="skills__data">
 							<h3>
 								{{name}}
-							</h3>							
+							</h3>
 							<span>
 								{{level}}
 							</span> 
@@ -26,8 +19,6 @@
 								{{/each}}
 							{{/if}}
 						</ul>
-					{{!-- </li>
-				</ul> --}}
 			{{/each}}
 		{{/if}}
 	</div>

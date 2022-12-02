@@ -1,0 +1,17 @@
+<section class="certificate section" id="certificates">
+    <h2 class="section-title">Certificates</h2>
+    {{#resume.certificates}}
+    <div class="certificates__container bd-grid">
+        <div class="certificate__content">
+            <h3 class="certificate__title">
+                {{name}} | {{date}}
+            </h3>
+            <p class="certificete__description">
+                {{issuer}}<br>
+                <a class="certificate__url" href="{{url}}">{{url}}</a>
+            </p>
+        </div>
+    </div>
+    {{/resume.certificates}}
+</section>
+

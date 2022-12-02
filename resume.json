@@ -172,6 +172,45 @@
           ]
         }
   ],
+  "certificates": [
+    {
+      "name": "Conduite des projets informatiques",
+      "date": "Sep 2011 - Féb 2012",
+      "issuer": "Formation certifiant Conservatoire National des Arts et Métiers",
+      "url": ""
+    },
+    {
+      "name": "Cours de productivité personnelle à l'ère numérique",
+      "date": "2016",
+      "issuer": "Fundacion Santa Maria la Real, Espagne",
+      "url": ""
+    },
+    {
+      "name": "Cours de Web Analytics",
+      "date": "2015",
+      "issuer": "Escuela de Organización Industrial, Espagne",
+      "url": "https://sites.google.com/a/learning.eoi.es/mooc-analitica-web/"
+    },
+    {
+      "name": "Cours de Cloud Computing",
+      "date": "2015",
+      "issuer": "Escuela de Organización Industrial, Espagne",
+      "url": "https://sites.google.com/a/learning.eoi.es/mooc-cloudcomputing/modulo-1-fundamentos-de-la-tecnologia-cloud-yde-sus-servicios-asociados"
+    },
+    {
+      "name": "Cours de E-commerce",
+      "date": "2015",
+      "issuer": "Escuela de Organización Industrial, Espagne",
+      "url": "https://sites.google.com/a/learning.eoi.es/mooc-ecommerce/"
+    },
+    {
+      "name": "Cours de base en marketing numérique",
+      "date": "2015",
+      "issuer": "Interactive Advertising Bureau, Espagne",
+      "url": "https://sites.google.com/site/tucursomarketingdigital/coleccionmarketing-digital"
+    }
+  ],
+
   "awards": [
     {
       "title": "",
