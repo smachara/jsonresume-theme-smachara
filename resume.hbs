@@ -67,8 +67,8 @@
             <!-- All elements within this div, is generated in PDF -->
             <div class="resume" id="area-cv">
                 <div class="resume__left">
+                    <!--========== CONTACT ==========-->
 					{{#resume.basics}}
-                    <!--========== HOME ==========-->
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
 							<div class="home__data bd-grid">
@@ -100,41 +100,50 @@
 												{{/if}}
 											{{/location}}
 									</spam>
+									{{#if email}}
 									<spam class="home__information">
 										<i class='bx bx-envelope home__icon' ></i> 
-										{{#if email}}
 											{{email}}
-										{{/if}}
 									</spam>
+									{{/if}}
+									{{#if phone}}
 									<spam class="home__information">
 										<i class='bx bx-phone home__icon' ></i>
-										{{#if phone}}
 											{{phone}}
-										{{/if}}
- 
-									</spam>
-
+ 									</spam>
+									{{/if}}
+									{{#if url}}
+									<spam class="home__information">
+										<i class='bx bx-globe home__icon' ></i>
+										<a href="{{url}}" target="_blank">
+											{{url}}
+										</a>
+ 									</spam>
+									{{/if}}
 								</div>
 							</div>
 						</div>
                         <!-- Theme change button -->
-
                     </section>          
-                    {{/resume.basics}}
-
                     <!--========== SOCIAL ==========-->
                     <section class="social section">
-                        
+                        <h2 class="section-title">SOCIAL</h2>
+						<div class="social__container bd-grid">
+							{{#profiles}}
+							<a href="{{url}}" class="social__link" target="_blank">
+								<i class='{{iconClass}} social__icon' ></i> 
+								{{!-- {{network}}  --}}
+								@{{username}}
+							</a>
+							{{/profiles}}
+						</div>
                     </section>
-
                     <!--========== PROFILE ==========-->
                     <section class="profile section" id="profile">
          				<!-- ABOUT ME -->
-						{{#basics.summary}}
-            				{{{basics.summary}}}
-				        {{/basics.summary}}                    
+						{{{summary}}}
 					</section>
-                    
+                    {{/resume.basics}}
                     <!--========== EDUCATION ==========-->
                     <section class="education section" id="education">
                         {{> education }}

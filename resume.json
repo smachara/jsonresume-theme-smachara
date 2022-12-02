@@ -25,6 +25,11 @@
         "network": "GitLab",
         "username": "ikiwisi",
         "url": "https://gitlab.com/ikiwisi"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Samer Machara",
+        "url": "https://linkedin.com/samer-machara"
       }
     ]
   },
