@@ -1,52 +1,46 @@
-{{#if resume.education.length}}
-<section id="education">
-	<h2>Education</h2>
-	{{#each resume.education}}
-	<div class="item">
-		<div class="date">
-			{{#if startDate}}
-			<span class="startDate">
-				{{startDate}}
-			</span>
-			{{/if}}
-			{{#if endDate}}
-			<span class="endDate">
-				- {{endDate}}
-			</span>
-			{{else}}
-			<span class="endDate">
-				- Present
-			</span>
-			{{/if}}
+<section class="education section" id="education">
+	<h2 class="section-title">Education</h2>
+	
+	<div class="education__container bd-grid">
+		{{#resume.education}}
+
+		<div class="education__content">
+			<div class="education__time">
+				<spam class="education__rounder"></spam>
+				{{#if @last}} {{else}} 
+					<spam class="education__line"></spam>
+				{{/if}}
+			</div>
+			<div class="education__data bd-grid">
+				<h3 class="education__title">{{studyType}}</h3>
+				<spam class="education__studies">{{institution}}</spam>
+				<spam class="education__year">
+					{{startDate}} -
+					{{#if endDate}}
+						{{endDate}}
+					{{else}}
+						Present
+					{{/if}}
+				</spam>
+				{{#if url}}
+					<spam class="education__studies">{{url}}</spam>
+				{{/if}}
+				{{#if area}}
+					<spam class="education__studies">{{area}}</spam>
+				{{/if}}
+				{{#if score}}
+					<spam class="education__studies">{{score}}</spam>
+				{{/if}}
+				{{#if courses.length}}
+					<ul class="courses">
+						{{#each courses}}
+						<li>{{.}}</li>
+						{{/each}}
+					</ul>
+				{{/if}}
+			</div>
 		</div>
-		{{#if institution}}
-		<div class="institution">
-			{{institution}}
-		</div>
-		{{/if}}
-		{{#if area}}
-		<div class="area">
-			{{area}}
-		</div>
-		{{/if}}
-		{{#if studyType}}
-		<div class="studyType">
-			{{studyType}}
-		</div>
-		{{/if}}
-		{{#if gpa}}
-		<div class="gpa">
-			GPA: {{gpa}}
-		</div>
-		{{/if}}
-		{{#if courses.length}}
-		<ul class="courses">
-			{{#each courses}}
-			<li>{{.}}</li>
-			{{/each}}
-		</ul>
-		{{/if}}
+
+		{{/resume.education}}
 	</div>
-	{{/each}}
 </section>
-{{/if}}

@@ -1,90 +1,82 @@
+<!--========== BASICS ==========-->
 {{#resume.basics}}
-	<h1>{{name}}</h1>
-	<h2>{{label}}</h2>
-	<section id="basics">
-		<div class="contact">
-		{{#if website}}
-		<div class="website">
-			<strong>Website</strong>
-			{{website}}
-		</div>
-		{{/if}}
-		{{#if email}}
-		<div class="email">
-			<strong>Email</strong>
-			{{email}}
-		</div>
-		{{/if}}
-		{{#if phone}}
-		<div class="phone">
-			<strong>Phone</strong>
-			{{phone}}
-		</div>
-		{{/if}}
-		</div>
-		{{#if summary}}
-		<div class="summary">
-			<p>{{summary}}</p>
-		</div>
-		{{/if}}
-		{{#location}}
-		<h3>Contact</h3>
-		<section id="location">
-			{{#if address}}
-			<div class="address">
-				<strong>Address</strong>
-				{{address}}
-			</div>
-			{{/if}}
-			{{#if postalCode}}
-			<div class="postalCode">
-				<strong>Postal code</strong>
-				{{postalCode}}
-			</div>
-			{{/if}}
-			{{#if city}}
-			<div class="city">
-				<strong>City</strong>
-				{{city}}
-			</div>
-			{{/if}}
-			{{#if countryCode}}
-			<div class="countryCode">
-				<strong>Country code</strong>
-				{{countryCode}}
-			</div>
-			{{/if}}
-			{{#if region}}
-			<div class="region">
-				<strong>Region</strong>
-				{{region}}
-			</div>
-			{{/if}}
-		</section>
-		{{/location}}
-		{{#if profiles.length}}
-		<h3>Profiles</h3>
-		<section id="profiles">
-			{{#each profiles}}
-			<div class="item">
-				{{#if network}}
-				<strong class="network">
-					{{network}}
-				</strong>
-				{{/if}}
-				{{#if username}}
-				<div class="username">
-					{{username}}
+	<section class="home" id="home">
+		<div class="home__container section bd-grid">
+			<!--========== HOME ==========-->
+			<div class="home__data bd-grid">
+				<img src="{{image}}" alt="" class="home__img">
+				<h1 class="home__title"><b>{{name}}</b></h1>
+				<h3 class="home__profession">{{label}}</h3>
+				<!-- Button to generate and download the pdf. Available for desktop. -->
+				<div>
+					<a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
 				</div>
-				{{/if}}
-				{{#if url}}
-				<div class="url">
-					<a href="{{url}}">Link</a>
+				<!--========== CONTACT ==========-->
+				<div class="home__address bd-grid">
+					<spam class="home__information">
+						<i class='bx bx-map home__icon' ></i> 
+							{{#location}}
+								{{#if address}}
+									{{address}}
+								{{/if}}
+								{{#if postalCode}}
+									{{postalCode}}
+								{{/if}}
+								{{#if city}}
+									{{city}}
+								{{/if}}
+								{{#if region}}
+									{{region}}
+								{{/if}}
+								{{#if countryCode}}
+									{{countryCode}}
+								{{/if}}
+							{{/location}}
+					</spam>
+					{{#if email}}
+					<spam class="home__information">
+						<i class='bx bx-envelope home__icon' ></i> 
+							{{email}}
+					</spam>
+					{{/if}}
+					{{#if phone}}
+					<spam class="home__information">
+						<i class='bx bx-phone home__icon' ></i>
+							{{phone}}
+					</spam>
+					{{/if}}
+					{{#if url}}
+					<spam class="home__information">
+						<i class='bx bx-globe home__icon' ></i>
+						<a href="{{url}}" target="_blank">
+							{{url}}
+						</a>
+					</spam>
+					{{/if}}
 				</div>
-				{{/if}}
 			</div>
-			{{/each}}
-		</section>
-		{{/if}}
+		</div>
+		<!-- Theme change button -->
+	</section>          
+	<!--========== SOCIAL ==========-->
+	<section class="social section">
+		<h2 class="section-title">SOCIAL</h2>
+		<div class="social__container bd-grid">
+			{{#profiles}}
+			<a href="{{url}}" class="social__link" target="_blank">
+				<i class='{{iconClass}} social__icon' ></i> 
+				{{!-- {{network}}  --}}
+				@{{username}}
+			</a>
+			{{/profiles}}
+		</div>
+	</section>
+	<!--========== ABOUT ME ==========-->
+	<section class="profile section" id="profile">
+		<h2 class="section-title">Profile</h2>
+		<p class="profile__description">
+			<!-- ABOUT ME -->
+			{{{summary}}}
+		</p>
 	</section>
 {{/resume.basics}}
