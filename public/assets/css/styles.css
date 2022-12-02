@@ -355,7 +355,52 @@ img{
   font-size: var(--small-font-size);
 }
 /*========== REFERENCES ==========*/
+.references__content{
+  gap: .25rem;
+}
+.references__subtitle{
+  color: var(--text-color-light);
+}
+.references__subtitle,
+.references__contact{
+  font-size: var(--smaller-font-size);
+}
+.references__title{
+  font-size: var(--h3-font-size);
+}
 
+.references__quote{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* width: 60%; */
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    /* line-height: 1.4;
+    text-rendering: optimizeLegibility; */
+  }
+  
+.references__quote p:first-of-type:before {
+  content: '\201c';
+}
+
+.reference__quote p:last-of-type:after {
+	content: '\201d';
+	/* position: absolute; */
+}
+
+.references__quote footer {
+  content: '–';
+	position: relative;
+  text-align: right;
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-3);
+}
+
+.references__quote footer:before {
+	position: absolute;
+	left: -.6em;
+}
 
 /*========== INTERESTS ==========*/
 

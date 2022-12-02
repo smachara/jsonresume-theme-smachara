@@ -1,21 +1,29 @@
 <section class="references section" id="references">
 	{{#if resume.references.length}}
-	<section id="references">
-		<h2>References</h2>
-		{{#each resume.references}}
-		<div class="item">
-			{{#if reference}}
-			<blockquote class="reference">
-				{{reference}}
-			</blockquote>
-			{{/if}}
-			{{#if name}}
-			<div class="name">
-				— {{name}}
-			</div>
-			{{/if}}
+		<h2 class="section-title">References</h2>
+		<div class="references__container bd-grid">
+			{{#each resume.references}}
+				{{!-- <spam class="references__subtitle"></spam>			 --}}
+				{{!-- <h3 class="references__title"></h3> --}}
+				{{#if reference}}
+					<div class="references__content bd-grid">
+						<blockquote class="reference__quote">
+							<p>
+								{{reference}}
+							</p>
+							<footer class="references__subtitle">
+								{{#if name}}
+									{{name}}
+								{{/if}}
+							</footer>
+						</blockquote>
+						{{!-- <ul class="references__contact">
+							<li>Phone :</li>
+							<li>Email :</li>
+						</ul> --}}
+					</div>
+				{{/if}}
+			{{/each}}
 		</div>
-		{{/each}}
-	</section>
 	{{/if}}
 </section>

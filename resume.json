@@ -320,8 +320,16 @@
   ],
   "references": [
     {
-      "name": "",
-      "reference": ""
+    "name": "Jorge Alzualde , Project Director et Co-Founder de Bucares SARL.",
+    "reference": "Il est très compétent pour comprendre la portée et les enjeux des produits et des services et est à l'aise avec les principes de gestion de projet. Il a également démontré sa capacité à collaborer avec les autres membres de l'équipe et à communiquer avec les clients."
+    },
+    {
+      "name": "Virgile Delporte, Représentant du Président Workogether SARL.",
+      "reference": "A son arrivée, Monsieur Machara Marquez a fait preuve d’une grande implication, et a été un véritable apport au niveau organisationnel notamment en mettant en place les process nécessaires. Par ailleurs il a parfaitement su identifier et mettre en place une sous-traitance R&D avec une équipe à distance."
+    },
+    {
+      "name": "Christian Bac, Enseignant-chercheur Télécom SudParis.",
+      "reference": " Relativement à ses études, Samer a été un élève brillant qui avait déjà une expérience en programmation et qui a réussi à acquérir les connaissances et les technologies que j'ai enseignées. Il était l'un des meilleurs élèves de sa promotion comme l'attestent ses résultats ... Son travail dans mon équipe a nécessité une grande adaptation et l'acquisition de connaissances nouvelles. ...Samer a très bien pris son sujet en main, il s'est bien intégré à notre équipe pendant son projet."
     }
   ],
   "projects": [
@@ -352,6 +360,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2022-12-01T22:53:00"
   }
 }
