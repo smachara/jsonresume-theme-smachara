@@ -192,7 +192,7 @@
   "skills": [
     {
         "name": "Gestion de projets",
-        "level": "confirmé",
+        "level": "",
         "keywords": [
             "Scrum",
             "JIRA (Admin)",
@@ -201,21 +201,8 @@
         ]
     },
     {
-        "name": "Développement Web",
-        "level": "confirmé",
-        "keywords": [
-            "PHP/SYMFONY",
-            "HTML",
-            "CSS/SAAS",
-            "Javascript",
-            "MySQL/Progress/Redis",
-            "Apache",
-            "API REST Full"
-          ]
-    },
-    {
       "name": "Logiciels",
-      "level": "confirmé",
+      "level": "",
       "keywords": [
         "Git",
         "Docker",
@@ -225,22 +212,35 @@
     },
     {
       "name": "CMS et e-commerce ",
-      "level": "confirmé",
+      "level": "",
       "keywords": [
         "Wordpress",
         "Woocommers"
-
+        
       ]
     },
     {
-        "name": "Informatique",
-        "level": "confirmé",
+      "name": "Informatique",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Linux",
+        "Google Worksapce"
+      ]
+    },
+    {
+        "name": "Développement Web",
+        "level": "",
         "keywords": [
-          "Windows",
-          "Linux",
-          "Google Worksapce"
-        ]
-      }
+            "PHP/SYMFONY",
+            "HTML",
+            "CSS/SAAS",
+            "Javascript",
+            "MySQL/Progress/Redis",
+            "Apache",
+            "API REST Full"
+          ]
+    }
   ],
   "languages": [
     {
