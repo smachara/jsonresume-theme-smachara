@@ -7,7 +7,7 @@
     "email": "smachara@gmail.com",
     "phone": "(+33) 6 48 58 69 31",
     "url": "https://",
-    "summary" : "Je suis ingénieur en informatique depuis 2000. Diplômé de l'école d'ingénieurs Mines Telecom Sudparis en informatique et communications réseaux en 2011 et docteur en informatique de l'Université Paris-Saclay en 2015. <br> En quelques mots, je suis rigoureux, méthodique, intègre et loyal, de nature calme et chaleureuse. <br>     J'ai travaillé en tant que chef de projet, en utilisant à la fois des méthodologies traditionnelles et agiles en particulier le framework SCRUM. Avec une expérience cumulée de plus de 7 ans en tant que chef de projet.  Mes expériences m’ont permis d’acquérir de solides connaissances en pilotage des projets, assure la qualité, le suivi et communication des avancements de projet.",
+    "summary" : "Plus de 7 ans d'expérience en tant que chef de projet. Diplômé en informatique et communications réseaux et docteur en informatique. Utilise des méthodologies traditionnelles et agiles, en particulier le framework SCRUM. Rigoureux, méthodique, intègre et loyal, calme et chaleureux. Solides connaissances en pilotage, qualité, suivi et communication des avancements des projets.",
         "location": {
       "address": "Impasse Dumont d'Urville",
       "postalCode": "91000",
@@ -72,7 +72,7 @@
         "summary": "Gestion de project - Tableau Kanban - Diagramme de Gant",
         "highlights":
         [
-            "<ul style=\"list-style-type: circle;\"> <li> Consolider la gestion et l’administration de la plateforme Cloud du laboratoire SAMOVAR-CNRS et de l’institut Mines-Telecom.  </li><li> Coordination du projet de déménagement de la plateforme de cloud computing (Data Center) de l'ancien bâtiment vers le nouveau centre ETOILE. </li><li>Gestion du project de centralization documentaire de la plateforme cloud.</li></ul>"
+            "<ul style=\"list-style-type: circle;\"> <li> Consolider la gestion et l’administration de la plateforme Cloud du laboratoire SAMOVAR-CNRS et de l’institut Mines-Telecom.  </li><li> Coordination du projet de déménagement de la plateforme de cloud computing (Data Center) de l'ancien bâtiment vers le nouveau centre ETOILE. </li><li>Gestion du project de centralization documentaire de la plateforme cloud.</li></ul>   <spam class=\"before\"></spam>"
         ]
       },
       {
@@ -135,7 +135,6 @@
     {
       "institution": "L’Université Paris-Saclay, France.",
       "url": "",
-      "area": "Sciences Informatiques",
       "studyType": "Doctorat (PhD)",
       "startDate": "2011-10-01",
       "endDate": "2015-11-01",
@@ -148,7 +147,6 @@
     {
         "institution": "École d’ingénieurs Institut Mines-Télécom Sud-Paris, France.",
         "url": "",
-        "area": "informatique et communication réseaux",
         "studyType": "MASTER Science de l’informatique et communication réseaux",
         "startDate": "2009-09-01",
         "endDate": "2011-09-01",
@@ -161,7 +159,6 @@
       {
           "institution": "Université Nueva Esparta, Caracas, Venezuela.",
           "url": "",
-          "area": "Sciences Informatiques",
           "studyType": "Ingénieur en Sciences Informatiques",
           "startDate": "1995-09-01",
           "endDate": "2000-09-01",

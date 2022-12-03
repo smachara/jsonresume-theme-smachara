@@ -97,15 +97,17 @@ let areaCv = document.getElementById('area-cv')
 
 let resumeButton = document.getElementById('resume-button')
 
-
+let  pagebreak = { before: '.before', after: '.after', avoid: '.avoid' }
 // Html2pdf options
 let opt = {
     margin:       0,
     filename:     'monResume.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
-    html2canvas:  { scale: 4 },
-    jsPDF:        {  format: 'a4', orientation: 'portrait' }
+    html2canvas:  { scale: 2 },
+    jsPDF:        {  format: 'a4', orientation: 'portrait' },
+    pagebreak: pagebreak
   }
+
 
 // Function to call areaCv and Html2Pdf options 
 function generateResume() {

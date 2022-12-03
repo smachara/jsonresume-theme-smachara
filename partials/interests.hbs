@@ -1,16 +1,16 @@
 <section class="interests section" id="interests">
 	{{#if resume.interests.length}}
-		<h2 class="section-title">Interests</h2>
+		<h2 class="section-title">Intérêts</h2>
 			<div class="interests__container bd-grid">
 				{{#each resume.interests}}
 					<div class="interests__content">
-						{{#if keywords.length}}
-							{{#each keywords}}
-								{{{.}}}
-							{{/each}}
-						{{/if}}
 						{{#if name}}
 							<spam class="interests__name">
+								{{#if keywords.length}}
+									{{#each keywords}}
+										{{{.}}}
+									{{/each}}
+								{{/if}}
 								{{name}}
 							</spam>
 						{{/if}}
