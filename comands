@@ -1,3 +1,5 @@
  npm install resume-cli
 
 npx resume serve --theme .
+
+git push gitlab
