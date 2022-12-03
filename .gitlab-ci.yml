@@ -1,0 +1,13 @@
+image: node:latest
+
+stages:
+  - build
+pages:
+  stage: build
+  script:
+    - npm install
+    - npm install resume-cli
+    - npx resume export public\index.html --theme .
+  artifacts:
+    paths:
+      - public

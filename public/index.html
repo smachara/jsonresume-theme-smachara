@@ -1,865 +1,719 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--========== BOX ICONS ==========-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-    <!--========== CSS ==========-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Samer MACHARA MARQUEZ</title>
-  </head>
-  <body>
-    <!--========== HEADER ==========-->
-    <header class="l-header" id="header">
-      <nav class="nav bd-container">
-        <a href="#" class="nav__Logo">Samer</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="bx bx-home nav__icon"></i>Accueil
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#profile" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>Profil
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#education" class="nav__link">
-                <i class="bx bx-book nav__icon"></i>Formation
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="bx bx-receipt nav__icon"></i>Compétences
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#experience" class="nav__link">
-                <i class="bx bx-briefcase nav__icon"></i>Expérience
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#languages" class="nav__link">
-                <i class="bx bx-message-rounded-detail nav__icon"></i>Langues
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#interests" class="nav__link">
-                <i class="bx bx-bookmark-heart nav__icon"></i>Centres d'intérêt
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#certificates" class="nav__link">
-                <i class="bx bx-award nav__icon"></i>Certificats
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#references" class="nav__link">
-                <i class="bx bx-link-external nav__icon"></i>Références
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-grid-alt"></i>
-        </div>
-      </nav>
-    </header>
-    <main class="l-main bd-container">
-      <!-- All elements within this div, is generated in PDF -->
-      <div class="resume" id="area-cv">
-        <div class="resume__left">
-          <!--========== BASICS ==========-->
-          <section class="home" id="home">
-            <div class="home__container section bd-grid">
-              <!--========== HOME ==========-->
-              <div class="home__data bd-grid">
-                <img src="assets/img/perfil.jpg" alt="" class="home__img" />
-                <h1 class="home__title"><b>Samer MACHARA MARQUEZ</b></h1>
-                <h3 class="home__profession">
-                  Chef de Project &amp; Développeur Web (PHP/Symfony)
-                </h3>
-                <div>
-                  <a
-                    download=""
-                    href="assets/pdf/monResume.pdf"
-                    class="home__button-movil"
-                    >Download</a
-                  >
-                </div>
-                <!--========== CONTACT ==========-->
-                <div class="home__address bd-grid">
-                  <spam class="home__information">
-                    <i class="bx bx-map home__icon"></i>
-                    Impasse Dumont d&#x27;Urville 91000 Evry Courcourrones
-                    Essonne FR
-                  </spam>
-                  <spam class="home__information">
-                    <i class="bx bx-envelope home__icon"></i>
-                    smachara@gmail.com
-                  </spam>
-                  <spam class="home__information">
-                    <i class="bx bx-phone home__icon"></i>
-                    (+33) 6 48 58 69 31
-                  </spam>
-                  <spam class="home__information">
-                    <i class="bx bx-globe home__icon"></i>
-                    <a href="https://" target="_blank"> https:// </a>
-                  </spam>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Samer MACHARA MARQUEZ</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+				<a href="#" class="nav__Logo">Samer</a>
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active-link">
+								<i class='bx bx-home nav__icon'></i>Accueil
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#profile" class="nav__link">
+								<i class='bx bx-user nav__icon' ></i>Profil
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#education" class="nav__link">
+								<i class='bx bx-book nav__icon' ></i>Formation
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#skills" class="nav__link">
+								<i class='bx bx-receipt nav__icon' ></i>Compétences
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#experience" class="nav__link">
+								<i class='bx bx-briefcase nav__icon' ></i>Expérience
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#languages" class="nav__link">
+								<i class='bx bx-message-rounded-detail nav__icon' ></i>Langues
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#interests" class="nav__link">
+								<i class='bx bx-bookmark-heart nav__icon' ></i>Centres d'intérêt
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#certificates" class="nav__link">
+								<i class='bx bx-award nav__icon' ></i>Certificats
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#references" class="nav__link">
+								<i class='bx bx-link-external nav__icon' ></i>Références
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav__toggle" id="nav-toggle">
+					<i class='bx bx-grid-alt' ></i>
+				</div>
+			</nav>
 
-                  <spam class="home__information">
-                    <a
-                      href="https://github.com/smachara"
-                      class="social__link"
-                      target="_blank"
-                    >
-                      <i class="bx bxl-github social__icon"></i>
-                      @smachara
-                    </a>
-                  </spam>
-                  <spam class="home__information">
-                    <a
-                      href="https://gitlab.com/ikiwisi"
-                      class="social__link"
-                      target="_blank"
-                    >
-                      <i class="bx bxl-gitlab social__icon"></i>
-                      @ikiwisi
-                    </a>
-                  </spam>
-                  <spam class="home__information">
-                    <a
-                      href="https://linkedin.com/samer-machara"
-                      class="social__link"
-                      target="_blank"
-                    >
-                      <i class="bx bxl-linkedin-square social__icon"></i>
-                      @Samer Machara
-                    </a>
-                  </spam>
+        </header>
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+					<!--========== BASICS ==========-->
+					  <section class="home" id="home">
+					    <div class="home__container section bd-grid">
+					      <!--========== HOME ==========-->
+					      <div class="home__data bd-grid">
+					        <img src="assets/img/perfil.jpg" alt="" class="home__img" />
+					        <h1 class="home__title"><b>Samer MACHARA MARQUEZ</b></h1>
+					        <h3 class="home__profession">Chef de Project &amp; Développeur Web (PHP/Symfony)</h3>
+					        <div>
+					          <a
+					            download=""
+					            href="assets/pdf/monResume.pdf"
+					            class="home__button-movil"
+					          >Download</a>
+					        </div>
+					        <!--========== CONTACT ==========-->
+					        <div class="home__address bd-grid">
+					          <spam class="home__information">
+					            <i class="bx bx-map home__icon"></i>
+					                Impasse Dumont d&#x27;Urville
+					                91000
+					                Evry Courcourrones
+					                Essonne
+					                FR
+					          </spam>
+					            <spam class="home__information">
+					              <i class="bx bx-envelope home__icon"></i>
+					              smachara@gmail.com
+					            </spam>
+					            <spam class="home__information">
+					              <i class="bx bx-phone home__icon"></i>
+					              (+33) 6 48 58 69 31
+					            </spam>
+					            <spam class="home__information">
+					              <i class="bx bx-globe home__icon"></i>
+					              <a href="https://" target="_blank">
+					                https://
+					              </a>
+					            </spam>
+					
+					            <spam class="home__information">
+					            <a href="https://github.com/smachara" class="social__link" target="_blank">
+					              <i class="bx bxl-github social__icon"></i>
+					              @smachara
+					            </a>
+					            </spam>
+					            <spam class="home__information">
+					            <a href="https://gitlab.com/ikiwisi" class="social__link" target="_blank">
+					              <i class="bx bxl-gitlab social__icon"></i>
+					              @ikiwisi
+					            </a>
+					            </spam>
+					            <spam class="home__information">
+					            <a href="https://linkedin.com/samer-machara" class="social__link" target="_blank">
+					              <i class="bx bxl-linkedin-square social__icon"></i>
+					              @Samer Machara
+					            </a>
+					            </spam>
+					        </div>
+					      </div>
+					    </div>
+					    <!-- Theme change button -->
+					    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+					    <!-- Button to generate and download the pdf. Available for desktop. -->
+					    <i
+					      class="bx bx-download generate-pdf"
+					      title="Generate PDF"
+					      id="resume-button"
+					    ></i>
+					
+					  </section>
+					  <!--========== SOCIAL ==========-->
+					  <!--========== ABOUT ME ==========-->
+					  <section class="profile section" id="profile">
+					    <h2 class="section-title">Profil</h2>
+					    <p class="profile__description">
+					      <!-- ABOUT ME -->
+					      Plus de 7 ans d'expérience en tant que chef de projet. Diplômé en informatique et communications réseaux et docteur en informatique. Utilise des méthodologies traditionnelles et agiles, en particulier le framework SCRUM. Rigoureux, méthodique, intègre et loyal, calme et chaleureux. Solides connaissances en pilotage, qualité, suivi et communication des avancements des projets.
+					    </p>
+					    <div class="home__data bd-grid">
+					      <spam class="home__information">
+					        <i class="bx bxs-flag-alt home__icon"></i>
+					        Nationalité : Française
+					      </spam>
+					      <spam class="home__information">
+					        <i class="bx bx-car"></i>
+					        Permis de conduire : B, Véhicule
+					      </spam>
+					    </div>
+					  </section>
+                    <!--========== EDUCATION ==========-->
+					<section class="education section" id="education">
+						<h2 class="section-title">FORMATION</h2>
+						
+						<div class="education__container bd-grid">
+					
+							<div class="education__content">
+								<div class="education__time">
+									<spam class="education__rounder"></spam>
+									 
+										<spam class="education__line"></spam>
+								</div>
+								<div class="education__data bd-grid">
+									<h3 class="education__title">Doctorat (PhD)</h3>
+									<spam class="education__studies">L’Université Paris-Saclay, France.</spam>
+									<spam class="education__year">
+											Oct 2011
+											&nbsp;Nov 2015
+									</spam>
+										<ul class="courses">
+											<li></li>
+											<li></li>
+										</ul>
+								</div>
+							</div>
+					
+					
+							<div class="education__content">
+								<div class="education__time">
+									<spam class="education__rounder"></spam>
+									 
+										<spam class="education__line"></spam>
+								</div>
+								<div class="education__data bd-grid">
+									<h3 class="education__title">MASTER Science de l’informatique et communication réseaux</h3>
+									<spam class="education__studies">École d’ingénieurs Institut Mines-Télécom Sud-Paris, France.</spam>
+									<spam class="education__year">
+											Sep 2009
+											&nbsp;Sep 2011
+									</spam>
+										<ul class="courses">
+											<li></li>
+											<li></li>
+										</ul>
+								</div>
+							</div>
+					
+					
+							<div class="education__content">
+								<div class="education__time">
+									<spam class="education__rounder"></spam>
+									 			</div>
+								<div class="education__data bd-grid">
+									<h3 class="education__title">Ingénieur en Sciences Informatiques</h3>
+									<spam class="education__studies">Université Nueva Esparta, Caracas, Venezuela.</spam>
+									<spam class="education__year">
+											Sep 1995
+											&nbsp;Sep 2000
+									</spam>
+										<ul class="courses">
+											<li></li>
+											<li></li>
+										</ul>
+								</div>
+							</div>
+					
+						</div>
+					</section>                    <!--========== SKILLS  ==========-->
+					<section class="skills section" id="skills">
+						<h2 class="section-title">COMPÉTENCES</h2>
+						<div class="skills__content bd-grid">
+					
+											<ul class="skills__data">
+												<h3>
+													Gestion de projets
+												</h3>
+												<span>
+													
+												</span> 
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Scrum
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>JIRA (Admin)
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Confluence(Wiki)
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>OpenProject
+														</li>
+											</ul>
+					
+											<ul class="skills__data">
+												<h3>
+													Logiciels
+												</h3>
+												<span>
+													
+												</span> 
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Git
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Docker
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Jenkins
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Maven
+														</li>
+											</ul>
+					
+											<ul class="skills__data">
+												<h3>
+													CMS et e-commerce 
+												</h3>
+												<span>
+													
+												</span> 
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Wordpress
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Woocommers
+														</li>
+											</ul>
+					
+											<ul class="skills__data">
+												<h3>
+													Informatique
+												</h3>
+												<span>
+													
+												</span> 
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Windows
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Linux
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Google Worksapce
+														</li>
+											</ul>
+					
+											<ul class="skills__data">
+												<h3>
+													Développement Web
+												</h3>
+												<span>
+													
+												</span> 
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>PHP/SYMFONY
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>HTML
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>CSS/SAAS
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Javascript
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>MySQL/Progress
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Redis
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>Apache
+														</li>
+														<li class="skills__name">
+															<spam class="skills__circle"></spam>API REST Full
+														</li>
+											</ul>
+						</div>
+					</section>					<!--========== LANGUAGES ==========-->
+					<section class="languages section" id="languages">
+							<h2 class="section-title">Langues</h2>
+							<div class="languages__container">
+								<ul class="languages__content bd-grid">
+											<li class="languages__name">
+												<spam class="languages__circle"></spam>Espagnol
+													-<span class="fluency"><em>courant</em></span>
+											</li>
+											<li class="languages__name">
+												<spam class="languages__circle"></spam>Français
+													-<span class="fluency"><em>courant</em></span>
+											</li>
+											<li class="languages__name">
+												<spam class="languages__circle"></spam>Anglais
+													-<span class="fluency"><em>courant</em></span>
+											</li>
+								</ul>
+							</div>
+					</section>
+                    <!--========== INTERESTS ==========-->
+					<section class="interests section" id="interests">
+							<h2 class="section-title">Intérêts</h2>
+								<div class="interests__container bd-grid">
+										<div class="interests__content">
+												<spam class="interests__name">
+															<i class='bx bx-swim interests__icon' ></i>
+													Natation
+												</spam>
+										</div>
+										<div class="interests__content">
+												<spam class="interests__name">
+															<i class='bx bx-paint-roll interests__icon' ></i>
+													Bricolage
+												</spam>
+										</div>
+										<div class="interests__content">
+												<spam class="interests__name">
+															<i class='bx bxs-cube-alt interests__icon' ></i>
+													Impresion 3D
+												</spam>
+										</div>
+								</div>
+					</section>
+					
                 </div>
-              </div>
+	            <div class="resume__right">
+					<!--========== EXPERIENCE ==========-->
+						<section class="experience section" id="experience">
+							<h2 class="section-title">Expériences professionnelles</h2>
+							<div class="experience__container bd-grid">
+									<div class="experience__content">
+										<div class="experience__time">
+											<spam class="experience__rounder"></spam>
+											 
+												<spam class="experience__line"></spam>
+										</div>
+										<div class="experience__data bd-grid">
+											<h3 class="experience__title">
+													Chef de project 
+											</h3>
+											<span class="experience__company">
+													Oct 2021
+													- Present
+												|
+													Freelance
+												|
+													Evry - France
+											</span>
+												<p>Freelance dans la gestion de projet en mode Agile (Scrum), analyse des besoins, planification, la conception de systèmes, développement, adaptation, test et maintenance.</p>
+											<h3 class="experience__title">
+												<u>
+													Mission(s) et réalisations :
+												</u>
+											</h3>
+											<div class="experience__description">
+												<ul class="highlights ">
+													<li><b>Plug and Plate</b>, spécialiste du développement web pour le secteur de la restauration,  offre des solutions pour la gestion des commandes, livraisons, click&collect, et autres.<br> <ul  style="list-style-type: circle;" > <li>Cadrage et analyse des besoins métiers, rédaction des Users Stories</li><li>Pilotage et priorisation du Backlog</li><li>Accompagnement des équipes en charge des développements et priorisation des travaux</li><li>Organisation des travaux de recette et de validation des livraisons</li><li>Participation aux cérémonies Agiles</li></ul><br><a href="https://plugandplate.com">plugandplate.com</a> </li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="experience__content">
+										<div class="experience__time">
+											<spam class="experience__rounder"></spam>
+											 
+												<spam class="experience__line"></spam>
+										</div>
+										<div class="experience__data bd-grid">
+											<h3 class="experience__title">
+													Chef de projet SI
+											</h3>
+											<span class="experience__company">
+													Oct 2017
+													- Jan 2020
+												|
+													Contrat Facil SAS
+												|
+													Paris - France
+											</span>
+												<p>Société dédiée à la création de solutions successorales en ligne pour les particuliers et les professionnels, par exemple la rédaction de testaments en ligne.</p>
+												<a href="https://Testamento.fr">https://Testamento.fr</a>
+											<h3 class="experience__title">
+												<u>
+													Mission(s) et réalisations :
+												</u>
+											</h3>
+											<div class="experience__description">
+												<ul class="highlights ">
+													<li><ul style="list-style-type: circle;"> <li>Implémentation et formation de l'équipe interne dans la  méthodologie Scrum.</li><li>Gestion du projet d’industrialisation de la solution logicielle existante, basée sur une nouvelle architecture logicielle de micro-services.</li><li>Choisir les prestataires sous-traitants pour booster le developement de la solution. Superviser les relations avec les sous-traitants, et choisir la répartition des tâches entre ressources internes et ressources externes.</li> <li> Animer les réunions de pilotage de projets basé sur le méthode Scrum. - Définir le planning des tâches et leur priorité. - Etablir les tableaux de bord relatifs au déroulement des projets et à l’activité. - Suivre les plannings de déroulement des projets. - Test des applications développées pour assurer la qualité du produit.</li></ul></li>
+													<li>Administration Jira, Confluence </li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="experience__content">
+										<div class="experience__time">
+											<spam class="experience__rounder"></spam>
+											 
+												<spam class="experience__line"></spam>
+										</div>
+										<div class="experience__data bd-grid">
+											<h3 class="experience__title">
+													Ingénieur Plateforme Cloud
+											</h3>
+											<span class="experience__company">
+													Mar 2016
+													- Sep 2017
+												|
+													École d’ingénieurs Institut Mines-Télécom Sud-Paris et CNRS
+												|
+													Evry - France
+											</span>
+												<p>Grand école d'ingénieurs publique reconnue au plus haut niveau de la science et du numérique avec le Centre National de la Recherche Scientifique.</p>
+											<h3 class="experience__title">
+												<u>
+													Mission(s) et réalisations :
+												</u>
+											</h3>
+											<div class="experience__description">
+												<ul class="highlights ">
+													<li><ul style="list-style-type: circle;"> <li> Consolider la gestion et l’administration de la plateforme Cloud du laboratoire SAMOVAR-CNRS et de l’institut Mines-Telecom.  </li><li> Coordination du projet de déménagement de la plateforme de cloud computing (Data Center) de l'ancien bâtiment vers le nouveau centre ETOILE. </li><li>Gestion du project de centralization documentaire de la plateforme cloud.</li></ul>   <spam class="before"></spam></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="experience__content">
+										<div class="experience__time">
+											<spam class="experience__rounder"></spam>
+											 
+												<spam class="experience__line"></spam>
+										</div>
+										<div class="experience__data bd-grid">
+											<h3 class="experience__title">
+													Ingénieur recherche et développement
+											</h3>
+											<span class="experience__company">
+													Oct 2011
+													- Oct 2014
+												|
+													École d’ingénieurs Institut Mines-Télécom Sud-Paris
+												|
+													Evry - France
+											</span>
+												<p>L'institut Mines-Télécom Sud-Paris est une école d'ingénieurs publique reconnue au plus haut niveau de la science et du numérique.</p>
+											<h3 class="experience__title">
+												<u>
+													Mission(s) et réalisations :
+												</u>
+											</h3>
+											<div class="experience__description">
+												<ul class="highlights ">
+													<li><ul style="list-style-type: circle;"><li>Conception des modèles pour la gestion de la qualité de l'information et respect de la vie privée dans l'Internet des objets.</li><li>Gestion et suivi du projet de recherche de façon autonome.</li><li>Définition des modalités d’expérimentation.</li><li>Organisation de réunions d'état d'avancement de projets.</li><li>Rédaction de notes de synthèse, rapport scientifique pour des conférences et rapports de thèse.</li></ul></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="experience__content">
+										<div class="experience__time">
+											<spam class="experience__rounder"></spam>
+											 
+												<spam class="experience__line"></spam>
+										</div>
+										<div class="experience__data bd-grid">
+											<h3 class="experience__title">
+													Chef de projet SI
+											</h3>
+											<span class="experience__company">
+													Nov 2004
+													- Sep 2009
+												|
+													Tagua Center S.A.
+												|
+													Caracas - Venezuela
+											</span>
+												<p>Centres de bien-être & beauté avec 3 établissements</p>
+											<h3 class="experience__title">
+												<u>
+													Mission(s) et réalisations :
+												</u>
+											</h3>
+											<div class="experience__description">
+												<ul class="highlights ">
+													<li><ul style="list-style-type: circle;"><li>Coordination d’une équipe de travail de cinq personnes et des différents prestataires externes dans le cadre du développement, du maintien et du support du système administratif et du système des réservations de rendez-vous.</li> <li> Analyse des besoins. - Rédaction des cahiers des charges. - Etablissement du planning, définition des ressources, découpage du projet et spécification du budget.</li><li> Suivi d’avancement des prestataires externes.<li> Definition des tests techniques, fonctionnelles et métier.</li><li> Accompagnement des utilisateurs lors de la mise en service du système.<li> Documentation du projet.</li></ul></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="experience__content">
+										<div class="experience__time">
+											<spam class="experience__rounder"></spam>
+											 					</div>
+										<div class="experience__data bd-grid">
+											<h3 class="experience__title">
+													Analyste Concepteur Solutions Informatique
+											</h3>
+											<span class="experience__company">
+													Dec 2000
+													- Nov 2004
+												|
+													Zurich Seguros
+												|
+													Caracas - Venezuela
+											</span>
+												<p>Zurich est l'un des principaux groupes d'assurance internationaux du monde, Il propose une large gamme de solutions d'assurance vie et non-vie pour les particuliers, les professionnels, les PME et les grandes entreprises. </p>
+											<h3 class="experience__title">
+												<u>
+													Mission(s) et réalisations :
+												</u>
+											</h3>
+											<div class="experience__description">
+												<ul class="highlights ">
+													<li><ul style="list-style-type: circle;"><li>Organisation et planification de la mise en oeuvre du projet banque-assurance</li><li>Élaboration des spécifications techniques générales du projet sur la base du cahier des charges.</li><li>Mise en place des structures du projet et d’outils de pilotage.</li><li>Organisation et animation des comités de pilotage auprès des décideurs.</li><li>Transfert régulier à la maîtrise d’ouvrage des tableaux de bord sur l’état d’avancement du projet.</li><li>Supervision et coordination du travail de l’ensemble des acteurs internes et externes.</li><li>Validation des livrables.</li></ul></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+							</div>
+						</section>
+                    <!--========== CERTIFICATES ==========-->
+                      <spam class="before"></spam>
+                    <section class="scale-cv certificates section" id="certificates">
+                        <h2 class="section-title">Certificats</h2>
+                        <div class="certificates__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Conduite des projets informatiques | Sep 2011 - Féb 2012
+                                </h3>
+                                <p class="certificete__description">
+                                    Formation certifiant Conservatoire National des Arts et Métiers<br>
+                                    <a class="certificate__url" href=""></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="certificates__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Cours de productivité personnelle à l&#x27;ère numérique | 2016
+                                </h3>
+                                <p class="certificete__description">
+                                    Fundacion Santa Maria la Real, Espagne<br>
+                                    <a class="certificate__url" href=""></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="certificates__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Cours de Web Analytics | 2015
+                                </h3>
+                                <p class="certificete__description">
+                                    Escuela de Organización Industrial, Espagne<br>
+                                    <a class="certificate__url" href="https://sites.google.com/a/learning.eoi.es/mooc-analitica-web/">https://sites.google.com/a/learning.eoi.es/mooc-analitica-web/</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="certificates__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Cours de Cloud Computing | 2015
+                                </h3>
+                                <p class="certificete__description">
+                                    Escuela de Organización Industrial, Espagne<br>
+                                    <a class="certificate__url" href="https://sites.google.com/a/learning.eoi.es/mooc-cloudcomputing/modulo-1-fundamentos-de-la-tecnologia-cloud-yde-sus-servicios-asociados">https://sites.google.com/a/learning.eoi.es/mooc-cloudcomputing/modulo-1-fundamentos-de-la-tecnologia-cloud-yde-sus-servicios-asociados</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="certificates__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Cours de E-commerce | 2015
+                                </h3>
+                                <p class="certificete__description">
+                                    Escuela de Organización Industrial, Espagne<br>
+                                    <a class="certificate__url" href="https://sites.google.com/a/learning.eoi.es/mooc-ecommerce/">https://sites.google.com/a/learning.eoi.es/mooc-ecommerce/</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="certificates__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Cours de base en marketing numérique | 2015
+                                </h3>
+                                <p class="certificete__description">
+                                    Interactive Advertising Bureau, Espagne<br>
+                                    <a class="certificate__url" href="https://sites.google.com/site/tucursomarketingdigital/coleccionmarketing-digital">https://sites.google.com/site/tucursomarketingdigital/coleccionmarketing-digital</a>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!--========== REFERENCES ==========-->
+                    <section class="scale-cv references section" id="references">
+                    		<h2 class="section-title">Références</h2>
+                    		<div class="references__container bd-grid">
+                    					<div class="references__content bd-grid">
+                    						<blockquote class="references__quote">
+                    							<p>
+                    								Il est très compétent pour comprendre la portée et les enjeux des produits et des services et est à l&#x27;aise avec les principes de gestion de projet. Il a également démontré sa capacité à collaborer avec les autres membres de l&#x27;équipe et à communiquer avec les clients.
+                    							</p>
+                    							<footer class="references__subtitle">
+                    									Jorge Alzualde , Project Director et Co-Founder de Bucares SARL.
+                    							</footer>
+                    						</blockquote>
+                    					</div>
+                    					<div class="references__content bd-grid">
+                    						<blockquote class="references__quote">
+                    							<p>
+                    								A son arrivée, Monsieur Machara Marquez a fait preuve d’une grande implication, et a été un véritable apport au niveau organisationnel notamment en mettant en place les process nécessaires. Par ailleurs il a parfaitement su identifier et mettre en place une sous-traitance R&amp;D avec une équipe à distance.
+                    							</p>
+                    							<footer class="references__subtitle">
+                    									Virgile Delporte, Représentant du Président Workogether SARL.
+                    							</footer>
+                    						</blockquote>
+                    					</div>
+                    					<div class="references__content bd-grid">
+                    						<blockquote class="references__quote">
+                    							<p>
+                    								 Relativement à ses études, Samer a été un élève brillant qui avait déjà une expérience en programmation et qui a réussi à acquérir les connaissances et les technologies que j&#x27;ai enseignées. Il était l&#x27;un des meilleurs élèves de sa promotion comme l&#x27;attestent ses résultats ... Son travail dans mon équipe a nécessité une grande adaptation et l&#x27;acquisition de connaissances nouvelles. ...Samer a très bien pris son sujet en main, il s&#x27;est bien intégré à notre équipe pendant son projet.
+                    							</p>
+                    							<footer class="references__subtitle">
+                    									Christian Bac, Enseignant-chercheur Télécom SudParis.
+                    							</footer>
+                    						</blockquote>
+                    					</div>
+                    		</div>
+                    </section>					
+	            </div>
             </div>
-            <!-- Theme change button -->
-            <i
-              class="bx bx-moon change-theme"
-              title="Theme"
-              id="theme-button"
-            ></i>
-            <!-- Button to generate and download the pdf. Available for desktop. -->
-            <i
-              class="bx bx-download generate-pdf"
-              title="Generate PDF"
-              id="resume-button"
-            ></i>
-          </section>
-          <!--========== SOCIAL ==========-->
-          <!--========== ABOUT ME ==========-->
-          <section class="profile section" id="profile">
-            <h2 class="section-title">Profil</h2>
-            <p class="profile__description">
-              <!-- ABOUT ME -->
-              Plus de 7 ans d'expérience en tant que chef de projet. Diplômé en
-              informatique et communications réseaux et docteur en informatique.
-              Utilise des méthodologies traditionnelles et agiles, en
-              particulier le framework SCRUM. Rigoureux, méthodique, intègre et
-              loyal, calme et chaleureux. Solides connaissances en pilotage,
-              qualité, suivi et communication des avancements des projets.
-            </p>
-            <div class="home__data bd-grid">
-              <spam class="home__information">
-                <i class="bx bxs-flag-alt home__icon"></i>
-                Nationalité : Française
-              </spam>
-              <spam class="home__information">
-                <i class="bx bx-car"></i>
-                Permis de conduire : B, Véhicule
-              </spam>
-            </div>
-          </section>
-          <!--========== EDUCATION ==========-->
-          <section class="education section" id="education">
-            <h2 class="section-title">FORMATION</h2>
+        </main>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+			<i class='bx bx-up-arrow-alt' ></i>
+		</a>
 
-            <div class="education__container bd-grid">
-              <div class="education__content">
-                <div class="education__time">
-                  <spam class="education__rounder"></spam>
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
 
-                  <spam class="education__line"></spam>
-                </div>
-                <div class="education__data bd-grid">
-                  <h3 class="education__title">Doctorat (PhD)</h3>
-                  <spam class="education__studies"
-                    >L’Université Paris-Saclay, France.</spam
-                  >
-                  <spam class="education__year"> Oct 2011 &nbsp;Nov 2015 </spam>
-                  <ul class="courses">
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="education__content">
-                <div class="education__time">
-                  <spam class="education__rounder"></spam>
-
-                  <spam class="education__line"></spam>
-                </div>
-                <div class="education__data bd-grid">
-                  <h3 class="education__title">
-                    MASTER Science de l’informatique et communication réseaux
-                  </h3>
-                  <spam class="education__studies"
-                    >École d’ingénieurs Institut Mines-Télécom Sud-Paris,
-                    France.</spam
-                  >
-                  <spam class="education__year"> Sep 2009 &nbsp;Sep 2011 </spam>
-                  <ul class="courses">
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="education__content">
-                <div class="education__time">
-                  <spam class="education__rounder"></spam>
-                </div>
-                <div class="education__data bd-grid">
-                  <h3 class="education__title">
-                    Ingénieur en Sciences Informatiques
-                  </h3>
-                  <spam class="education__studies"
-                    >Université Nueva Esparta, Caracas, Venezuela.</spam
-                  >
-                  <spam class="education__year"> Sep 1995 &nbsp;Sep 2000 </spam>
-                  <ul class="courses">
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!--========== SKILLS  ==========-->
-          <section class="skills section" id="skills">
-            <h2 class="section-title">COMPÉTENCES</h2>
-            <div class="skills__content bd-grid">
-              <ul class="skills__data">
-                <h3>Gestion de projets</h3>
-                <span> </span>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Scrum
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>JIRA (Admin)
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Confluence(Wiki)
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>OpenProject
-                </li>
-              </ul>
-
-              <ul class="skills__data">
-                <h3>Logiciels</h3>
-                <span> </span>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Git
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Docker
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Jenkins
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Maven
-                </li>
-              </ul>
-
-              <ul class="skills__data">
-                <h3>CMS et e-commerce</h3>
-                <span> </span>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Wordpress
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Woocommers
-                </li>
-              </ul>
-
-              <ul class="skills__data">
-                <h3>Informatique</h3>
-                <span> </span>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Windows
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Linux
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Google Worksapce
-                </li>
-              </ul>
-
-              <ul class="skills__data">
-                <h3>Développement Web</h3>
-                <span> </span>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>PHP/SYMFONY
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>HTML
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>CSS/SAAS
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Javascript
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>MySQL/Progress
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Redis
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>Apache
-                </li>
-                <li class="skills__name">
-                  <spam class="skills__circle"></spam>API REST Full
-                </li>
-              </ul>
-            </div>
-          </section>
-          <!--========== LANGUAGES ==========-->
-          <section class="languages section" id="languages">
-            <h2 class="section-title">Langues</h2>
-            <div class="languages__container">
-              <ul class="languages__content bd-grid">
-                <li class="languages__name">
-                  <spam class="languages__circle"></spam>Espagnol -<span
-                    class="fluency"
-                    ><em>courant</em></span
-                  >
-                </li>
-                <li class="languages__name">
-                  <spam class="languages__circle"></spam>Français -<span
-                    class="fluency"
-                    ><em>courant</em></span
-                  >
-                </li>
-                <li class="languages__name">
-                  <spam class="languages__circle"></spam>Anglais -<span
-                    class="fluency"
-                    ><em>courant</em></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </section>
-          <!--========== INTERESTS ==========-->
-          <section class="interests section" id="interests">
-            <h2 class="section-title">Intérêts</h2>
-            <div class="interests__container bd-grid">
-              <div class="interests__content">
-                <spam class="interests__name">
-                  <i class="bx bx-swim interests__icon"></i>
-                  Natation
-                </spam>
-              </div>
-              <div class="interests__content">
-                <spam class="interests__name">
-                  <i class="bx bx-paint-roll interests__icon"></i>
-                  Bricolage
-                </spam>
-              </div>
-              <div class="interests__content">
-                <spam class="interests__name">
-                  <i class="bx bxs-cube-alt interests__icon"></i>
-                  Impresion 3D
-                </spam>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class="resume__right">
-          <!--========== EXPERIENCE ==========-->
-          <section class="experience section" id="experience">
-            <h2 class="section-title">Expériences professionnelles</h2>
-            <div class="experience__container bd-grid">
-              <div class="experience__content">
-                <div class="experience__time">
-                  <spam class="experience__rounder"></spam>
-
-                  <spam class="experience__line"></spam>
-                </div>
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">Chef de project</h3>
-                  <span class="experience__company">
-                    Oct 2021 - Present | Freelance | Evry - France
-                  </span>
-                  <p>
-                    Freelance dans la gestion de projet en mode Agile (Scrum),
-                    analyse des besoins, planification, la conception de
-                    systèmes, développement, adaptation, test et maintenance.
-                  </p>
-                  <h3 class="experience__title">
-                    <u> Mission(s) et réalisations : </u>
-                  </h3>
-                  <div class="experience__description">
-                    <ul class="highlights">
-                      <li>
-                        <b>Plug and Plate</b>, spécialiste du développement web
-                        pour le secteur de la restauration, offre des solutions
-                        pour la gestion des commandes, livraisons,
-                        click&collect, et autres.<br />
-                        <ul style="list-style-type: circle">
-                          <li>
-                            Cadrage et analyse des besoins métiers, rédaction
-                            des Users Stories
-                          </li>
-                          <li>Pilotage et priorisation du Backlog</li>
-                          <li>
-                            Accompagnement des équipes en charge des
-                            développements et priorisation des travaux
-                          </li>
-                          <li>
-                            Organisation des travaux de recette et de validation
-                            des livraisons
-                          </li>
-                          <li>Participation aux cérémonies Agiles</li>
-                        </ul>
-                        <br /><a href="https://plugandplate.com"
-                          >plugandplate.com</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="experience__content">
-                <div class="experience__time">
-                  <spam class="experience__rounder"></spam>
-
-                  <spam class="experience__line"></spam>
-                </div>
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">Chef de projet SI</h3>
-                  <span class="experience__company">
-                    Oct 2017 - Jan 2020 | Contrat Facil SAS | Paris - France
-                  </span>
-                  <p>
-                    Société dédiée à la création de solutions successorales en
-                    ligne pour les particuliers et les professionnels, par
-                    exemple la rédaction de testaments en ligne.
-                  </p>
-                  <a href="https://Testamento.fr">https://Testamento.fr</a>
-                  <h3 class="experience__title">
-                    <u> Mission(s) et réalisations : </u>
-                  </h3>
-                  <div class="experience__description">
-                    <ul class="highlights">
-                      <li>
-                        <ul style="list-style-type: circle">
-                          <li>
-                            Implémentation et formation de l'équipe interne dans
-                            la méthodologie Scrum.
-                          </li>
-                          <li>
-                            Gestion du projet d’industrialisation de la solution
-                            logicielle existante, basée sur une nouvelle
-                            architecture logicielle de micro-services.
-                          </li>
-                          <li>
-                            Choisir les prestataires sous-traitants pour booster
-                            le developement de la solution. Superviser les
-                            relations avec les sous-traitants, et choisir la
-                            répartition des tâches entre ressources internes et
-                            ressources externes.
-                          </li>
-                          <li>
-                            Animer les réunions de pilotage de projets basé sur
-                            le méthode Scrum. - Définir le planning des tâches
-                            et leur priorité. - Etablir les tableaux de bord
-                            relatifs au déroulement des projets et à l’activité.
-                            - Suivre les plannings de déroulement des projets. -
-                            Test des applications développées pour assurer la
-                            qualité du produit.
-                          </li>
-                        </ul>
-                      </li>
-                      <li>Administration Jira, Confluence</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="experience__content">
-                <div class="experience__time">
-                  <spam class="experience__rounder"></spam>
-
-                  <spam class="experience__line"></spam>
-                </div>
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">Ingénieur Plateforme Cloud</h3>
-                  <span class="experience__company">
-                    Mar 2016 - Sep 2017 | École d’ingénieurs Institut
-                    Mines-Télécom Sud-Paris et CNRS | Evry - France
-                  </span>
-                  <p>
-                    Grand école d'ingénieurs publique reconnue au plus haut
-                    niveau de la science et du numérique avec le Centre National
-                    de la Recherche Scientifique.
-                  </p>
-                  <h3 class="experience__title">
-                    <u> Mission(s) et réalisations : </u>
-                  </h3>
-                  <div class="experience__description">
-                    <ul class="highlights">
-                      <li>
-                        <ul style="list-style-type: circle">
-                          <li>
-                            Consolider la gestion et l’administration de la
-                            plateforme Cloud du laboratoire SAMOVAR-CNRS et de
-                            l’institut Mines-Telecom.
-                          </li>
-                          <li>
-                            Coordination du projet de déménagement de la
-                            plateforme de cloud computing (Data Center) de
-                            l'ancien bâtiment vers le nouveau centre ETOILE.
-                          </li>
-                          <li>
-                            Gestion du project de centralization documentaire de
-                            la plateforme cloud.
-                          </li>
-                        </ul>
-                        <spam class="before"></spam>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="experience__content">
-                <div class="experience__time">
-                  <spam class="experience__rounder"></spam>
-
-                  <spam class="experience__line"></spam>
-                </div>
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">
-                    Ingénieur recherche et développement
-                  </h3>
-                  <span class="experience__company">
-                    Oct 2011 - Oct 2014 | École d’ingénieurs Institut
-                    Mines-Télécom Sud-Paris | Evry - France
-                  </span>
-                  <p>
-                    L'institut Mines-Télécom Sud-Paris est une école
-                    d'ingénieurs publique reconnue au plus haut niveau de la
-                    science et du numérique.
-                  </p>
-                  <h3 class="experience__title">
-                    <u> Mission(s) et réalisations : </u>
-                  </h3>
-                  <div class="experience__description">
-                    <ul class="highlights">
-                      <li>
-                        <ul style="list-style-type: circle">
-                          <li>
-                            Conception des modèles pour la gestion de la qualité
-                            de l'information et respect de la vie privée dans
-                            l'Internet des objets.
-                          </li>
-                          <li>
-                            Gestion et suivi du projet de recherche de façon
-                            autonome.
-                          </li>
-                          <li>Définition des modalités d’expérimentation.</li>
-                          <li>
-                            Organisation de réunions d'état d'avancement de
-                            projets.
-                          </li>
-                          <li>
-                            Rédaction de notes de synthèse, rapport scientifique
-                            pour des conférences et rapports de thèse.
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="experience__content">
-                <div class="experience__time">
-                  <spam class="experience__rounder"></spam>
-
-                  <spam class="experience__line"></spam>
-                </div>
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">Chef de projet SI</h3>
-                  <span class="experience__company">
-                    Nov 2004 - Sep 2009 | Tagua Center S.A. | Caracas -
-                    Venezuela
-                  </span>
-                  <p>Centres de bien-être & beauté avec 3 établissements</p>
-                  <h3 class="experience__title">
-                    <u> Mission(s) et réalisations : </u>
-                  </h3>
-                  <div class="experience__description">
-                    <ul class="highlights">
-                      <li>
-                        <ul style="list-style-type: circle">
-                          <li>
-                            Coordination d’une équipe de travail de cinq
-                            personnes et des différents prestataires externes
-                            dans le cadre du développement, du maintien et du
-                            support du système administratif et du système des
-                            réservations de rendez-vous.
-                          </li>
-                          <li>
-                            Analyse des besoins. - Rédaction des cahiers des
-                            charges. - Etablissement du planning, définition des
-                            ressources, découpage du projet et spécification du
-                            budget.
-                          </li>
-                          <li>Suivi d’avancement des prestataires externes.</li>
-                          <li>
-                            Definition des tests techniques, fonctionnelles et
-                            métier.
-                          </li>
-                          <li>
-                            Accompagnement des utilisateurs lors de la mise en
-                            service du système.
-                          </li>
-                          <li>Documentation du projet.</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="experience__content">
-                <div class="experience__time">
-                  <spam class="experience__rounder"></spam>
-                </div>
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">
-                    Analyste Concepteur Solutions Informatique
-                  </h3>
-                  <span class="experience__company">
-                    Dec 2000 - Nov 2004 | Zurich Seguros | Caracas - Venezuela
-                  </span>
-                  <p>
-                    Zurich est l'un des principaux groupes d'assurance
-                    internationaux du monde, Il propose une large gamme de
-                    solutions d'assurance vie et non-vie pour les particuliers,
-                    les professionnels, les PME et les grandes entreprises. 
-                  </p>
-                  <h3 class="experience__title">
-                    <u> Mission(s) et réalisations : </u>
-                  </h3>
-                  <div class="experience__description">
-                    <ul class="highlights">
-                      <li>
-                        <ul style="list-style-type: circle">
-                          <li>
-                            Organisation et planification de la mise en oeuvre
-                            du projet banque-assurance
-                          </li>
-                          <li>
-                            Élaboration des spécifications techniques générales
-                            du projet sur la base du cahier des charges.
-                          </li>
-                          <li>
-                            Mise en place des structures du projet et d’outils
-                            de pilotage.
-                          </li>
-                          <li>
-                            Organisation et animation des comités de pilotage
-                            auprès des décideurs.
-                          </li>
-                          <li>
-                            Transfert régulier à la maîtrise d’ouvrage des
-                            tableaux de bord sur l’état d’avancement du projet.
-                          </li>
-                          <li>
-                            Supervision et coordination du travail de l’ensemble
-                            des acteurs internes et externes.
-                          </li>
-                          <li>Validation des livrables.</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!--========== CERTIFICATES ==========-->
-          <spam class="before"></spam>
-          <section class="scale-cv certificates section" id="certificates">
-            <h2 class="section-title">Certificats</h2>
-            <div class="certificates__container bd-grid">
-              <div class="certificate__content">
-                <h3 class="certificate__title">
-                  Conduite des projets informatiques | Sep 2011 - Féb 2012
-                </h3>
-                <p class="certificete__description">
-                  Formation certifiant Conservatoire National des Arts et
-                  Métiers<br />
-                  <a class="certificate__url" href=""></a>
-                </p>
-              </div>
-            </div>
-            <div class="certificates__container bd-grid">
-              <div class="certificate__content">
-                <h3 class="certificate__title">
-                  Cours de productivité personnelle à l&#x27;ère numérique |
-                  2016
-                </h3>
-                <p class="certificete__description">
-                  Fundacion Santa Maria la Real, Espagne<br />
-                  <a class="certificate__url" href=""></a>
-                </p>
-              </div>
-            </div>
-            <div class="certificates__container bd-grid">
-              <div class="certificate__content">
-                <h3 class="certificate__title">
-                  Cours de Web Analytics | 2015
-                </h3>
-                <p class="certificete__description">
-                  Escuela de Organización Industrial, Espagne<br />
-                  <a
-                    class="certificate__url"
-                    href="https://sites.google.com/a/learning.eoi.es/mooc-analitica-web/"
-                    >https://sites.google.com/a/learning.eoi.es/mooc-analitica-web/</a
-                  >
-                </p>
-              </div>
-            </div>
-            <div class="certificates__container bd-grid">
-              <div class="certificate__content">
-                <h3 class="certificate__title">
-                  Cours de Cloud Computing | 2015
-                </h3>
-                <p class="certificete__description">
-                  Escuela de Organización Industrial, Espagne<br />
-                  <a
-                    class="certificate__url"
-                    href="https://sites.google.com/a/learning.eoi.es/mooc-cloudcomputing/modulo-1-fundamentos-de-la-tecnologia-cloud-yde-sus-servicios-asociados"
-                    >https://sites.google.com/a/learning.eoi.es/mooc-cloudcomputing/modulo-1-fundamentos-de-la-tecnologia-cloud-yde-sus-servicios-asociados</a
-                  >
-                </p>
-              </div>
-            </div>
-            <div class="certificates__container bd-grid">
-              <div class="certificate__content">
-                <h3 class="certificate__title">Cours de E-commerce | 2015</h3>
-                <p class="certificete__description">
-                  Escuela de Organización Industrial, Espagne<br />
-                  <a
-                    class="certificate__url"
-                    href="https://sites.google.com/a/learning.eoi.es/mooc-ecommerce/"
-                    >https://sites.google.com/a/learning.eoi.es/mooc-ecommerce/</a
-                  >
-                </p>
-              </div>
-            </div>
-            <div class="certificates__container bd-grid">
-              <div class="certificate__content">
-                <h3 class="certificate__title">
-                  Cours de base en marketing numérique | 2015
-                </h3>
-                <p class="certificete__description">
-                  Interactive Advertising Bureau, Espagne<br />
-                  <a
-                    class="certificate__url"
-                    href="https://sites.google.com/site/tucursomarketingdigital/coleccionmarketing-digital"
-                    >https://sites.google.com/site/tucursomarketingdigital/coleccionmarketing-digital</a
-                  >
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <!--========== REFERENCES ==========-->
-          <section class="scale-cv references section" id="references">
-            <h2 class="section-title">Références</h2>
-            <div class="references__container bd-grid">
-              <div class="references__content bd-grid">
-                <blockquote class="references__quote">
-                  <p>
-                    Il est très compétent pour comprendre la portée et les
-                    enjeux des produits et des services et est à l&#x27;aise
-                    avec les principes de gestion de projet. Il a également
-                    démontré sa capacité à collaborer avec les autres membres de
-                    l&#x27;équipe et à communiquer avec les clients.
-                  </p>
-                  <footer class="references__subtitle">
-                    Jorge Alzualde , Project Director et Co-Founder de Bucares
-                    SARL.
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="references__content bd-grid">
-                <blockquote class="references__quote">
-                  <p>
-                    A son arrivée, Monsieur Machara Marquez a fait preuve d’une
-                    grande implication, et a été un véritable apport au niveau
-                    organisationnel notamment en mettant en place les process
-                    nécessaires. Par ailleurs il a parfaitement su identifier et
-                    mettre en place une sous-traitance R&amp;D avec une équipe à
-                    distance.
-                  </p>
-                  <footer class="references__subtitle">
-                    Virgile Delporte, Représentant du Président Workogether
-                    SARL.
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="references__content bd-grid">
-                <blockquote class="references__quote">
-                  <p>
-                    Relativement à ses études, Samer a été un élève brillant qui
-                    avait déjà une expérience en programmation et qui a réussi à
-                    acquérir les connaissances et les technologies que j&#x27;ai
-                    enseignées. Il était l&#x27;un des meilleurs élèves de sa
-                    promotion comme l&#x27;attestent ses résultats ... Son
-                    travail dans mon équipe a nécessité une grande adaptation et
-                    l&#x27;acquisition de connaissances nouvelles. ...Samer a
-                    très bien pris son sujet en main, il s&#x27;est bien intégré
-                    à notre équipe pendant son projet.
-                  </p>
-                  <footer class="references__subtitle">
-                    Christian Bac, Enseignant-chercheur Télécom SudParis.
-                  </footer>
-                </blockquote>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </main>
-    <!--========== SCROLL TOP ==========-->
-    <a href="#" class="scrolltop" id="scroll-top">
-      <i class="bx bx-up-arrow-alt"></i>
-    </a>
-
-    <!--========== HTML2PDF ==========-->
-    <script src="assets/js/html2pdf.bundle.min.js"></script>
-
-    <!--========== MAIN JS ==========-->
-    <script src="assets/js/main.js"></script>
-  </body>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
+
+
+
+
+	
+
+
+		
+		
+		
+		
+	
