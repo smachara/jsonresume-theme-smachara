@@ -272,7 +272,8 @@
             "HTML",
             "CSS/SAAS",
             "Javascript",
-            "MySQL/Progress/Redis",
+            "MySQL/Progress",
+            "Redis",
             "Apache",
             "API REST Full"
           ]
